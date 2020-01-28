@@ -1,0 +1,15 @@
+performance:
+* lab
+    * multiple channel
+    * soft fading
+    * sounds reasonable (8 speakers / 16 speakers)
+    * setting
+    * source - synce volume level
+    * failure mode - all other audio set to 0 (switch
+        * safe state 2
+        * ICE compute failure modes
+    * fade mode
+    * Settings
+        * THD - total harmonic distortion, two excitors from celling (setting = On/Off)
+        * Surround sound - narrow vs wide
+* real vehicle

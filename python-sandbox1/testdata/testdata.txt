@@ -1,0 +1,9 @@
+host=192.168.111.10
+password=1234567
+FIC_username=root
+user=sqa
+sftp_password=123
+dbname=JavaDB_Monkey_Banana
+email=
+db=javaTestDB
+dbs=MultiJavaDBs

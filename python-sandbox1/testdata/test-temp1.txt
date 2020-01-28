@@ -1,0 +1,20 @@
+FAILED: C62702: HV Charging, Battery In Charging State
+
+FAILED: C62679: Vehicle Closure, Liftgate Ajar Warning Notification
+
+FAILED: C62650: Drivetrain, Gear Position (PRND) View
+
+FAILED: C62659: HV Battery, Available Range View
+
+FAILED: C62702: HV Charging, Battery In Charging State
+
+FAILED: C62679: Vehicle Closure, Liftgate Ajar Warning Notification
+
+FAILED: C62650: Drivetrain, Gear Position (PRND) View
+
+FAILED: C62659: HV Battery, Available Range View
+FAILED: C62702: HV Charging, Battery In Charging State
+FAILED: C62679: Vehicle Closure, Liftgate Ajar Warning Notification
+FAILED: C62650: Drivetrain, Gear Position (PRND) View
+FAILED: C62659: HV Battery, Available Range View
+FAILED: C12345: HV Battery, Available Range View

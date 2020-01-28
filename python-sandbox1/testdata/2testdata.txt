@@ -1,0 +1,2 @@
+qnx_ip=192.168.111.10\nandroid_ip=192.168.111.11\n#android_ip=1234567\nFIC_username=root\nFIC_password=\nsftp_host=10.11.43.33\nsftp_login=sqa\nsftp_password=123
+iteration=\nsleeptime=\nemail=\ntestbed=\n
