@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 def longestCommonPrefix(strs):
     if not strs: return ""
     if len(strs) == 1: return strs[0]
