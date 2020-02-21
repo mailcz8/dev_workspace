@@ -70,8 +70,9 @@ class ScreenInvoker:
         if self.history:
             self.history.pop().undo()
 
-if __name__=="__main__":
-    test_data = "Hello Monday"
+if __name__ == "__main__":
+    test_data = "Hello world"
+    # test_data = "Hello Monday"
     x = Screen(test_data)
     k = x.__str__()
     print(k)
@@ -79,3 +80,13 @@ if __name__=="__main__":
     cut = CutCommand(x, start=5, end=11)
     client = ScreenInvoker()
     client.store_and_execute(cut)
+    print(x.__str__())
+
+    paste = PasteCommand(x, offset=0)
+    client = ScreenInvoker()
+    client.store_and_execute(paste)
+    print(x.__str__())
+    client.undo_last()
+    print(x.__str__())
+    client.undo_last()
+    print('expected return: {};'.format(test_data),'actual:', x.__str__())
