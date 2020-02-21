@@ -74,4 +74,8 @@ if __name__=="__main__":
     test_data = "Hello Monday"
     x = Screen(test_data)
     k = x.__str__()
-    print(x.__str__(), k)
+    print(k)
+
+    cut = CutCommand(x, start=5, end=11)
+    client = ScreenInvoker()
+    client.store_and_execute(cut)
