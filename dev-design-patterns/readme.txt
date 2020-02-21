@@ -13,3 +13,7 @@ Design Patterns types:
 * Proxy
 * Decorator
 * Adaptor
+* Command: Decouple the object that invokes the operation from the one that knows how to perform it.
+* Interpreter
+* State
+* Chain of responsibility
