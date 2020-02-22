@@ -46,8 +46,28 @@ class Child6(Child4, Child5):
         print('{}.__init__'.format(self.cur_child_info))
 
 
+class Ten:
+    def adder(self, *args):
+        print(sum(args) + 10)
+        super().adder()
+
+
+class Hundred:
+    def adder(self, *args):
+        print(sum(args) + 100)
+        # super().adder()
+
+
+class Experiment(Ten, Hundred):
+    pass
+
+
 if __name__ == "__main__":
     c3 = Child3()
 
     c6 = Child6()
     print(Child6.__mro__)
+
+    e = Experiment()
+    e.adder(1, 2, 3)
+    print(Experiment.__mro__)
