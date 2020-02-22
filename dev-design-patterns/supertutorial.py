@@ -47,7 +47,7 @@ class Child6(Child4, Child5):
 
 
 if __name__ == "__main__":
-    # c3 = Child3()
+    c3 = Child3()
 
     c6 = Child6()
     print(Child6.__mro__)
