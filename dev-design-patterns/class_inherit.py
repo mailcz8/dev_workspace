@@ -37,7 +37,7 @@ class Developer(Employee):
 
 class Manager(Employee):
     def __init__(self, fname, lname, pay, employees=None):
-        super().__init__(self, fname, lname, pay)
+        super().__init__(fname, lname, pay)
         if employees is None:
             self.employees = []
         else:
@@ -53,7 +53,7 @@ class Manager(Employee):
 
     def print_emps(self):
         for emp in self.employees:
-            print('-->', emp.fullname())
+            print('-->', emp.full_name())
 
 if __name__ == "__main__":
     emp1 = Employee("Joe", "Smith", 50000)
