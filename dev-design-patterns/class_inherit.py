@@ -69,6 +69,8 @@ if __name__ == "__main__":
     # print('org: dev1: 150000 156000.0 ; raise =  6000.0')
     # print('dev1:', dev1_pay, dev1_after_raise, '; raise = ', abs(dev1_pay-dev1_after_raise))
 
-    mgr1 = Manager('Sue', "Smith", 900000, [dev1, dev2])
-    print(mgr1.email)
+    mgr1 = Manager('Sue', "Smith", 900000, [dev1])
+    print('mgr info: {0}; {1}'.format(mgr1.full_name(), mgr1.email))
+    mgr1.print_emps()
+    print('Add emp:', dev2.full_name(), mgr1.add_emp(dev2))
     mgr1.print_emps()
